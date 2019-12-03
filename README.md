@@ -65,7 +65,6 @@ Private Zone creation example:
 ```hcl
 data "aws_vpc" "vpc"{
     name = "vpc1"
-
 }
 
 module "aws_route53_public" {
